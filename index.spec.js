@@ -6,7 +6,7 @@ describe("sayHello", () => {
     sayHello();
 
     expect(consoleSpy).toHaveBeenCalledWith(
-      "Hello from Github package repository"
+      "Hello from Github package repository on new branch"
     );
   });
 });

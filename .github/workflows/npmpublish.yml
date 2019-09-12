@@ -20,7 +20,7 @@ jobs:
           args: test
       - name: Publish
         env:
-          NPM_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.GITHUB_AUTH_TOKEN }}
           NPM_REGISTRY_URL: https://npm.pkg.github.com/zyhou
         with:
           args: publish

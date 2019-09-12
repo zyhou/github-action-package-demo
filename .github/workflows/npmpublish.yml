@@ -13,7 +13,7 @@ jobs:
       - name: Install
         uses: actions/npm@master
         with:
-          args: ci
+          args: install
       - name: Test
         uses: actions/npm@master
         with:
